@@ -1,0 +1,29 @@
+body {
+    background: rgb(4, 13, 63);
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.heros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.styleDad {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+}
+.styleDad img {
+    width: 100%;
+    border-radius: 100px;
+}
+.styleDad img:hover,
+.styleDad:hover {
+    border-radius: 80px;
+    width: 320px;
+    transition: 1000ms;
+    font-size: 1.5em;
+}
